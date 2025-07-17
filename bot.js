@@ -1,5 +1,5 @@
 const { Telegraf } = require("telegraf");
-const OpenAI = require("openai");
+const OPENAI = require("openai");
 require("dotenv").config();
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
