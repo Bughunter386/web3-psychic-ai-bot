@@ -4,7 +4,6 @@ require("dotenv").config();
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
-// ✅ New SDK format
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
